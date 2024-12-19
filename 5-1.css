@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#bodydiv {
+    background-color: #07081A;
+}
+
+#firstdiv {
+    width: 99px;
+    align-items: center;
+    display: flex;
+    display: inline-flex;
+}
+
+#header-ptag {
+    color: #fff;
+    font-size: 16px;
+}
+
+#navContainer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 1440px;
+    padding: 16px 20px;
+}
+.information {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
