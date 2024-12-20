@@ -8,7 +8,16 @@
     background-color: #07081A;
 }
 
+.babaiaga {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #261C51;
+}
+
 #firstdiv {
+    justify-content: space-between;
     width: 99px;
     align-items: center;
     display: flex;
@@ -16,9 +25,6 @@
 
 }
 
-#navContainer {
-    border-bottom: 1px solid #261C51;
-}
 
 
 #header-ptag {
@@ -28,14 +34,16 @@
     justify-content: flex-end;
 }
 
-    
+
 
 .header {
+    max-width: 1040px;
+    width: 100%;
     justify-content: space-between;
-    padding: 14px 200px;
     display: flex;
     align-items: center;
 }
+
 .information {
     align-self: stretch;
     color: #FFF;
@@ -45,6 +53,7 @@
     justify-content: center;
     width: 274px;
 }
+
 a {
     color: #fff;
     text-decoration: none;
@@ -57,6 +66,7 @@ a {
     border-radius: 8px;
     background: #9100D3;
 }
+
 .first-span {
     font-size: 16px;
     color: #B968DE;
@@ -111,6 +121,8 @@ a {
     display: flex;
     padding: 0px 72px 24px 72px;
     width: 100%;
+    align-items: flex-start;
+    max-width: 896px;
 }
 
 .main--content {
@@ -124,8 +136,76 @@ a {
     color: #FFF;
     font-size: 24px;
 }
+
 .main {
     display: flex;
     flex-direction: column;
     gap: 88px;
 }
+
+.last-wina-div {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.last-div {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    width: 256px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+    gap: 16px;
+
+}
+
+.div-last {
+    width: 256px;
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.p-tag {
+    font-size: 20px;
+    display: flex;
+    color: #C0C0C0;
+    
+
+}
+
+.main {
+    align-items: center;
+}
+
+.span {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin-top: 88px;
+    border-top: 1px solid #261C51;
+    justify-content: center;
+}
+
+.them {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.footer-div {
+    align-items: center;
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.get {
+    align-items: center;
+    display: flex;
+    gap: 24px;
+}
+
